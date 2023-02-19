@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Java Weekend Automation with selenium">
+	
+	<parameter name="username" value="abhishek"></parameter>
+	<parameter name="password" value="dwivedi"></parameter>
+  <test thread-count="1" name="AUTOMATION">
+    <classes>
+      <!--<class name="seleniumbasic.ParameterUsedInTest"/>-->
+       <class name="seleniumbasic.TheTestingClass"/>
+    <!-- <class name="seleniumbasic.JavaScriptExecutorEX"/>-->
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
